@@ -10,7 +10,7 @@ export default function Navbar() {
         <NavLink to="/Projects">
           <li>Projects</li>
         </NavLink>
-        <Link href="/Projects#contact" to="/Projects#contact">
+        <Link to="/Projects#contact">
           <li>Contact</li>
         </Link>
       </ul>

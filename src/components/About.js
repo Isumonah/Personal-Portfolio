@@ -1,5 +1,5 @@
 import React from "react"
-import Anna from "./Images/Anna.jpeg"
+import Anna from "../Images/Anna.jpeg"
 export default function About (){
     return (
         <div className="about-section">
