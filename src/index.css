@@ -113,3 +113,41 @@ body{
 
 }
 
+/* projects section */
+
+.projects{
+    color: #21243D;
+    margin: 70px auto;
+    width: 85%;
+}
+
+.projects-title{
+    font-size: 30px;
+    line-height: 60px;
+    margin: 30px 0;
+    text-align: center;
+}
+.projects-description{
+    font-size: 17px;
+    font-weight: 500;
+    
+}
+
+.each-project{
+    display: flex;
+    margin-top: 50px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #21243D;
+}
+.each-project img{
+    width: 246px;
+    margin-right: 18px;
+    border-radius: 6px;
+}
+
+.each-project-details h3{
+    font-size: 25px;
+    margin: 40px 0;
+  
+    
+}

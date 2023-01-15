@@ -14,7 +14,7 @@ export default function Navbar (){
                         Projects
                     </li>
                 </NavLink>
-                <Link to="/Projects#contact">
+                <Link to="/Projects#contact" href="#contact">
                     <li>
                         Contact
                     </li>
