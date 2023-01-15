@@ -1,0 +1,115 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+/* navbar section */
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar li{ 
+    list-style: none;
+    margin: 27px 35px 0 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.navbar a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* about-me section */
+.about-section{
+    max-width: 900px;
+    width: 85%;
+    max-height: 297px;
+    display: flex;
+    color: #21243D;
+    margin: 100px auto;
+}
+.about-me-writeup h1{
+    font-weight: 700;
+    font-size: 44;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+
+.about-me-writeup span{
+    display: block;
+}
+
+.my-description{
+    max-width: 497px;
+    max-height: 66px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.my-skills-p{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.my-skills-list{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 50%;
+}
+
+.my-skills-list li{
+    list-style: none;
+    padding: 8px;
+    margin: 5px 0;
+    width: 100px;
+    background-color: #8695A4;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+.resume-btn{
+    width: 200px;
+    height: 50px;
+    background-color: #FF6464;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    cursor: pointer;
+}
+.resume-btn:hover{
+    background-color: #00A8CC;
+}
+
+
+.about-me-img{
+    width: 300px;
+    margin-left: 60px;
+    margin-top: 50px;
+    align-self: center;
+
+}
+
+.about-me-img img{
+    width: 100%;
+    border-radius: 50%;
+
+}
+
