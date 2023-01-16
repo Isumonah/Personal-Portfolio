@@ -1,6 +1,9 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
+
 export default function Navbar() {
+
+
   return (
     <nav className="navbar-section">
       <ul className="navbar">
@@ -10,9 +13,9 @@ export default function Navbar() {
         <NavLink to="/Projects">
           <li>Projects</li>
         </NavLink>
-        <Link href="/Projects#contact">
+        <NavLink to="/Contacts" >
           <li>Contact</li>
-        </Link>
+        </NavLink>
       </ul>
     </nav>
   );

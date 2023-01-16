@@ -117,8 +117,8 @@ body{
 
 .projects{
     color: #21243D;
-    margin: 70px auto;
-    width: 85%;
+    margin: 70px auto 0;
+    width: 80%;
 }
 
 .projects-title{
@@ -127,10 +127,10 @@ body{
     margin: 30px 0;
     text-align: center;
 }
+
 .projects-description{
     font-size: 17px;
     font-weight: 500;
-    
 }
 
 .each-project{
@@ -140,14 +140,111 @@ body{
     border-bottom: 1px solid #21243D;
 }
 .each-project img{
-    width: 246px;
-    margin-right: 18px;
+    max-width: 246px;
+    margin-right: 30px;
     border-radius: 6px;
+}
+
+.each-project-details{
+    max-width: 500px;
 }
 
 .each-project-details h3{
     font-size: 25px;
     margin: 40px 0;
-  
-    
+}
+
+.display-project-site{
+    margin-top: 20px;
+    padding: 5px 15px;
+    background-color: #6184D8;
+    border: none;
+    border-radius: 3px;
+
+}
+
+.display-project-site a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* contact section */
+.contact-section{
+    color: #21243D;
+    width: 80%;
+    max-width: 700px;
+    margin: 50px auto;
+}
+
+.contact-section h3{
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+.contact-section p{
+    margin: 25px 0;
+    font-weight: 600;
+}
+
+.contact-me-content span{
+    font-weight: 500;
+    display: block;
+}
+.contact-me-content input{
+    max-width: 500px;
+    width: 80%;
+    padding: 5px 15px;
+}
+.send-msg-btn{
+    display: block;
+    padding: 10px 30px;
+    margin-top: 15px;
+    color: #21243D;
+    font-weight: 500;
+}
+
+.contact-me-content textarea{
+    width: 70%;
+}
+
+.contact-me-content form{
+    border-bottom: 1px solid #21243D;
+    padding-bottom: 20px;
+}
+
+
+/* footer section */
+.footer{
+    text-align: center;
+    margin: 100px 40px 50px; 
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.social-media a{
+    cursor: pointer;
+}
+
+
+
+.social-media img{
+    width: 20px;
+    height: 18px;
+}
+
+.email,
+.twitter,
+.github{
+   padding-left: 25px;
+}
+
+.social-media li{
+    list-style: none;
+}
+.social-media li:hover{
+    transform: scale(1.2);
 }
