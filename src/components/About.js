@@ -1,5 +1,6 @@
 import React from "react"
 import Anna from "../Images/Anna.jpeg"
+import CV from "../CV/AnnaIsumonahCV.pdf"
 export default function About (){
     return (
         <div className="about-section">
@@ -16,7 +17,9 @@ export default function About (){
                 <li>React</li>
             </ul>
             <button className="resume-btn">
-                Download Resume
+                <a href={CV} download>
+                    Download Resume
+                </a>
             </button>
             </div>
             <div className="about-me-img">

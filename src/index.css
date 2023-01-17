@@ -98,6 +98,10 @@ body{
     background-color: #00A8CC;
 }
 
+.resume-btn a{
+    text-decoration: none;
+    color: white;
+}
 
 .about-me-img{
     width: 300px;
